@@ -1,0 +1,27 @@
+{
+  "name": "agenciaviajes",
+  "version": "1.0.0",
+  "description": "Proyecto con node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "davidpromontorfarias@gmail.com"
+  },
+  "type": "module",
+  "author": "David promontor farias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "pug": "^3.0.2",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  }
+}

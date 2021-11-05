@@ -1,0 +1,35 @@
+extends ./layout/index
+
+block slider    
+    .slider 
+        h1 Rio de Janeiro 
+        em aventura
+
+block contenido
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros 
+
+        .row.mb-5
+            .col-md-6 
+                p Y fue entonces que no se lo que paso por que nadie estaba en la escena donde estaba sucediendo.Y fue entonces que no se lo que paso por que nadie estaba en la escena donde estaba sucediendo fue entonces que no se lo que paso por que nadie estaba en la escena donde estaba sucediendo.
+                p Y fue entonces que no se lo que paso por que nadie estaba en la escena donde estaba sucediendo.Y fue entonces que no se lo que paso por que nadie estaba en la escena donde estaba sucediendo.Y fue entonces que no se lo que paso por que nadie estaba en la escena donde estaba sucediendo.
+
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen inicio" class="img-fluid")
+
+        include ./layout/bloquesViajes
+
+
+    .descuento 
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido  
+                        h1 5% de Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo de 2022 - 28 de Marzo de 2022
+                        p.precio $2,500 USD
+    
+    .container 
+        h2.mt-5.text-center Testimoniales 
+        include ./layout/bloqueTestimonios
